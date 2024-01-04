@@ -1,6 +1,6 @@
 <template>
-  <div><b>Blake Likes Men</b>
-    <p>only sometimes though</p>
+  <div class="bg-image text-light"><b>Blake Likes Men</b>
+    <marquee>only sometimes though</marquee>
   </div>
 </template>
 
@@ -15,23 +15,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.home {
-  display: grid;
-  height: 80vh;
-  place-content: center;
-  text-align: center;
-  user-select: none;
+.bg-image {
+  background-image: url(https://images.unsplash.com/photo-1547609434-b732edfee020?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29vZCUyMHdvcmt8ZW58MHx8MHx8fDA%3D);
+  height: 100svh;
+  background-position: center;
+  background-size: cover;
 
-  .home-card {
-    width: clamp(500px, 50vw, 100%);
-
-    >img {
-      height: 200px;
-      max-width: 200px;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
-  }
 }
 </style>
