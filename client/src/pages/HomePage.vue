@@ -2,22 +2,22 @@
   <div class="container-fluid">
     <section class="row">
       <div class="bg-image text-light"><b>Blake REALLY REALLY Likes Men</b>
-        <div class="card">
+        <div class="card elevation-5">
           <marquee scrollamount="12">
             <span>
-              <img class="img-fluid max-height"
+              <img class="img-fluid max-height elevation-5"
                 src="https://plus.unsplash.com/premium_photo-1674852890119-fd9f51950ce5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="">
-              <img class="img-fluid max-height"
+              <img class="img-fluid max-height elevation-5"
                 src="https://images.unsplash.com/photo-1569695145335-ed8e60d92945?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="">
-              <img class="img-fluid max-height"
+              <img class="img-fluid max-height elevation-5"
                 src="https://images.unsplash.com/photo-1599651993975-30a482e26467?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="">
-              <img class="img-fluid max-height"
+              <img class="img-fluid max-height elevation-5"
                 src="https://plus.unsplash.com/premium_photo-1674852890869-045efbe8c54b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="">
-              <img class="img-fluid max-height"
+              <img class="img-fluid max-height elevation-5"
                 src="https://images.unsplash.com/photo-1516972810927-80185027ca84?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="">
             </span>
@@ -66,7 +66,12 @@ export default {
   width: 100%;
   transform: translateY(-50%);
   padding: 20px;
-  background-color: rgba(43, 43, 43, 0.419);
   border-radius: 15px;
+  background: rgba(31, 31, 31, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(31, 31, 31, 0.3);
 }
 </style>
