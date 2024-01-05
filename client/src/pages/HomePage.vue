@@ -56,7 +56,7 @@ export default {
 }
 
 .img-fluid {
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .card {
@@ -67,7 +67,7 @@ export default {
   transform: translateY(-50%);
   padding: 20px;
   border-radius: 15px;
-  background: rgba(31, 31, 31, 0.2);
+  background: rgba(31, 31, 31, 0.263);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
