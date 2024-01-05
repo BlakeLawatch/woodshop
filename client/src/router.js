@@ -21,7 +21,18 @@ const routes = [
     name: 'Account',
     component: loadPage('AccountPage'),
     beforeEnter: authGuard
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: loadPage('GalleryPage')
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: loadPage('ContactPage')
   }
+
 ]
 
 export const router = createRouter({
