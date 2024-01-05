@@ -18,6 +18,8 @@
       <img :src="images[enlargedImageIndex].src" :alt="images[enlargedImageIndex].alt" />
     </div>
   </div>
+
+  <audio ref="audioPlayer" :src="audioSrc"></audio>
 </template>
 
 <script>
@@ -44,6 +46,13 @@ export default {
   methods: {
     enlargeImage(index) {
       this.enlargedImageIndex = index;
+      if (index === 9) {
+        import('../assets/audio/FreddyD.mp3').then(module => {
+          const sound = module.default || module;
+          const audio = new Audio(sound);
+          audio.play();
+        });
+      }
     },
   },
 };
