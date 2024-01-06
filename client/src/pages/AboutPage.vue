@@ -67,9 +67,7 @@ body {
 
 .carousel-container {
   max-width: 100%;
-  /* Set the maximum width for the carousel */
   margin: 0 auto;
-  /* Center the carousel horizontally */
 }
 
 main#carousel {
