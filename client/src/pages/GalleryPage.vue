@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-12 d-flex flex-wrap justify-content-center">
           <div class="col-md-3 p-3" v-for="(image, index) in images" :key="index">
-            <img class="img-fluid max-height elevation-5" :src="image.src" :alt="image.alt"
+            <img class="img-fluid max-height elevation-5 selectable" :src="image.src" :alt="image.alt"
               @click="enlargeImage(index)" />
           </div>
         </div>
