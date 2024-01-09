@@ -1,5 +1,5 @@
 <template>
-  <body>
+  <div>
     <input type="radio" name="position" :checked="currentPosition === 1" />
     <input type="radio" name="position" :checked="currentPosition === 2" />
     <input type="radio" name="position" :checked="currentPosition === 3" />
@@ -22,7 +22,7 @@
         src="https://images.unsplash.com/photo-1516972810927-80185027ca84?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="5">
     </main>
-  </body>
+  </div>
 </template>
 
 <script>
@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-body {
+div {
   height: 600px;
   margin: 0;
   display: grid;

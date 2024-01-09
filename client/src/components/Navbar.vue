@@ -12,15 +12,15 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
         <li>
-          <router-link :to="{ name: 'Gallery' }" class="btn text-success fs-5 lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Gallery' }" class="btn text-light fs-5 lighten-30 selectable text-uppercase">
             Gallery
           </router-link>
 
-          <router-link :to="{ name: 'About' }" class="btn text-success fs-5 lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'About' }" class="btn text-light fs-5 lighten-30 selectable text-uppercase">
             About
           </router-link>
 
-          <router-link :to="{ name: 'Contact' }" class="btn text-success fs-5 lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Contact' }" class="btn text-light fs-5 lighten-30 selectable text-uppercase">
             Contact
           </router-link>
         </li>
@@ -83,6 +83,6 @@ a:hover {
 }
 
 .navbar-color {
-  background-color: rgb(37, 37, 38);
+  background-color: #113736;
 }
 </style>

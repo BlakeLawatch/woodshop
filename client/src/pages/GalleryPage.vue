@@ -2,9 +2,6 @@
   <div class="gallery">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="text-light">I WOOD GOOD. LOOK AT MY WOOD.</h1>
-        </div>
         <div class="col-md-12 d-flex flex-wrap justify-content-center">
           <div class="col-md-3 p-3" v-for="(image, index) in images" :key="index">
             <img class="img-fluid max-height selectable" :src="image.src" :alt="image.alt" @click="enlargeImage(index)" />
@@ -102,14 +99,13 @@ export default {
 
 .img-fluid:hover {
   margin-right: 25px;
-
   filter: drop-shadow(1rem 1rem 10px rgba(0, 0, 0, 0.641));
 }
 
 .gallery {
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: rgb(130, 119, 104);
+  background-color: #371112;
 }
 </style>
 
