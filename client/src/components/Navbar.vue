@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm navbar-color px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="../assets/img/wood.png" height="45" />
+        <img alt="logo" src="src/assets/img/Knotty-logo.png" height="100" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -12,25 +12,25 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
         <li>
-          <router-link :to="{ name: 'Gallery' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Gallery' }" class="btn text-success fs-5 lighten-30 selectable text-uppercase">
             Gallery
           </router-link>
 
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'About' }" class="btn text-success fs-5 lighten-30 selectable text-uppercase">
             About
           </router-link>
 
-          <router-link :to="{ name: 'Contact' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'Contact' }" class="btn text-success fs-5 lighten-30 selectable text-uppercase">
             Contact
           </router-link>
         </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
-      <div>
+      <!-- <div>
         <button class="btn text-light" @click="toggleTheme"><i class="mdi"
             :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i></button>
       </div>
-      <!-- <Login /> -->
+      <Login /> -->
     </div>
   </nav>
 </template>
@@ -78,7 +78,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
   nav {
-    height: 64px;
+    height: 10svh;
   }
 }
 
