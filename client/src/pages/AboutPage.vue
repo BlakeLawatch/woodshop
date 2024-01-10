@@ -82,6 +82,7 @@ div {
   height: 100svh;
   background-position: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
 .carousel-container {
