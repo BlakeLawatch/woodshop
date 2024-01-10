@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div ref="carousel" @wheel.prevent="handleMouseWheel">
     <input type="radio" name="position" :checked="currentPosition === 1" />
     <input type="radio" name="position" :checked="currentPosition === 2" />
     <input type="radio" name="position" :checked="currentPosition === 3" />
@@ -30,23 +30,42 @@ export default {
   data() {
     return {
       currentPosition: 1,
+      autoScrollInterval: null,
+      isScrolling: false,
     };
-  },
-  setup() {
-    return {};
   },
   methods: {
     autoScroll() {
-      setInterval(() => {
+      this.autoScrollInterval = setInterval(() => {
         this.currentPosition = (this.currentPosition % 5) + 1;
-      }, 2000);
+      }, 3000);
+    },
+    handleMouseWheel(event) {
+      clearInterval(this.autoScrollInterval);
+      if (event.deltaY > 0) {
+        this.currentPosition = (this.currentPosition % 5) + 1;
+      } else {
+        this.currentPosition = this.currentPosition === 1 ? 5 : this.currentPosition - 1;
+      }
+      this.isScrolling = true;
+    },
+    handleMouseWheelEnd() {
+      if (this.isScrolling) {
+        this.isScrolling = false;
+        this.autoScroll();
+      }
     },
   },
   mounted() {
     this.autoScroll();
+    this.$refs.carousel.addEventListener('wheel', this.handleMouseWheelEnd);
+  },
+  beforeDestroy() {
+    this.$refs.carousel.removeEventListener('wheel', this.handleMouseWheelEnd);
   },
 };
 </script>
+
 
 <style scoped lang="scss">
 div {
@@ -166,3 +185,5 @@ input:nth-of-type(5):checked~main#carousel {
   --position: 5;
 }
 </style>
+
+

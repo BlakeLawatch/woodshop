@@ -84,5 +84,7 @@ a:hover {
 
 .navbar-color {
   background-color: #113736;
+  /* background-color: #CACAAA; */
+
 }
 </style>
