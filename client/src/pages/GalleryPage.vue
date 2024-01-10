@@ -105,7 +105,7 @@ export default {
 .gallery {
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: #371112;
+  background-color: #816E5E;
 }
 </style>
 
