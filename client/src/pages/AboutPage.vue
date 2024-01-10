@@ -115,10 +115,11 @@ img.item {
   --abs: max(calc(var(--r) * -1), var(--r));
   transition: all 0.25s linear;
   transition: transform 1s ease-in-out;
-  transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
+  transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-350px * var(--r)));
   z-index: calc((var(--position) - var(--abs)));
   -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
 }
+
 
 img.item:nth-of-type(1) {
   --offset: 1;
