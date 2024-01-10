@@ -3,23 +3,13 @@
     <section class="row">
       <div class="bg-image text-light">
         <div class="card elevation-5">
-          <marquee scrollamount="12">
+          <marquee scrollamount="15">
             <span>
-              <img class="img-fluid max-height"
-                src="https://plus.unsplash.com/premium_photo-1674852890119-fd9f51950ce5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="">
-              <img class="img-fluid max-height"
-                src="https://images.unsplash.com/photo-1569695145335-ed8e60d92945?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="">
-              <img class="img-fluid max-height"
-                src="https://images.unsplash.com/photo-1599651993975-30a482e26467?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="">
-              <img class="img-fluid max-height"
-                src="https://plus.unsplash.com/premium_photo-1674852890869-045efbe8c54b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="">
-              <img class="img-fluid max-height"
-                src="https://images.unsplash.com/photo-1516972810927-80185027ca84?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="">
+              <img class="img-fluid max-height" src="src/assets/img/Project-images/couch-table.png" alt="">
+              <img class="img-fluid max-height" src="src/assets/img/Project-images/doggy-door.png" alt="">
+              <img class="img-fluid max-height" src="src/assets/img/Project-images/corn-hole.png" alt="">
+              <img class="img-fluid max-height" src="src/assets/img/Project-images/Shoe-rack.png" alt="">
+              <img class="img-fluid max-height" src="src/assets/img/Project-images/board-epoxy.png" alt="">
             </span>
           </marquee>
         </div>
@@ -42,9 +32,9 @@ export default {
 
 <style scoped lang="scss">
 .bg-image {
-  background-image: url(https://images.unsplash.com/photo-1547609434-b732edfee020?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29vZCUyMHdvcmt8ZW58MHx8MHx8fDA%3D);
+  background-image: url(src/assets/img/Project-images/bg-image.png);
   height: 100svh;
-  background-position: center;
+  background-position: right;
   background-size: cover;
 }
 
@@ -70,12 +60,12 @@ img {
   transform: translateY(-50%);
   padding: 20px;
   border-radius: 15px;
-  background: rgba(31, 31, 31, 0.327);
+  background: rgba(31, 31, 31, 0);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(2px);
-  border: 1px solid rgba(31, 31, 31, 0.3);
+  // border: 1px solid rgba(31, 31, 31, 0.3);
   // -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
   -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0));
   // -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
