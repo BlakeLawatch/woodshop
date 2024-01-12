@@ -17,7 +17,8 @@
           </button>
           <ul class="dropdown-menu drop-menu">
             <li>
-              <router-link :to="{ name: 'Gallery' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+              <router-link :to="{ name: 'Gallery' }"
+                class="btn text-hover fs-5 fw-bold lighten-30 selectable text-uppercase">
                 Gallery
               </router-link>
             </li>
@@ -108,12 +109,10 @@ a:hover {
 .logo {
   height: 11vh;
   width: auto;
-  text-shadow: 10px 10px 10px black;
 }
 
 .dropdown-options {
-  font-size: 10vh;
-  box-shadow: none;
+  font-size: 8vh;
 }
 
 
