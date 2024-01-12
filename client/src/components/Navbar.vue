@@ -13,7 +13,7 @@
       <ul class="navbar-nav ms-auto">
         <div class="dropdown">
           <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="mdi mdi-dots-horizontal text-light dropdown-options"></i>
+            <i class="mdi mdi-dots-grid text-light dropdown-options"></i>
           </button>
           <ul class="dropdown-menu drop-menu">
             <li>

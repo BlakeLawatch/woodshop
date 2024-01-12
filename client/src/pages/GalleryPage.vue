@@ -1,6 +1,7 @@
 <template>
   <div class="gallery">
     <div class="container-fluid">
+      <Navbar />
       <div class="row">
         <div class="col-md-12 d-flex flex-wrap justify-content-center">
           <div class="col-md-3 p-3" v-for="(image, index) in images" :key="index">
@@ -19,6 +20,8 @@
 </template>
 
 <script>
+import Navbar from '../components/Navbar.vue';
+
 export default {
   data() {
     return {
@@ -51,6 +54,7 @@ export default {
       }
     },
   },
+  components: { Navbar }
 };
 </script>
 
