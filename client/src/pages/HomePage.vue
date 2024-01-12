@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <section class="row align-items-end">
       <div class="bg-image text-light">
+        <Navbar />
         <CarouselComponent />
 
       </div>
@@ -13,12 +14,13 @@
 
 <script>
 import CarouselComponent from '../components/CarouselComponent.vue';
+import Navbar from '../components/Navbar.vue';
 
 export default {
   setup() {
     return {};
   },
-  components: { CarouselComponent }
+  components: { CarouselComponent, Navbar }
 }
 </script>
 

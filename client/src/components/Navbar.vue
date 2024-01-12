@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-color px-3">
+  <nav class="navbar navbar-expand-sm p-5">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="src/assets/img/Knotty-logo.png" height="100" />
+        <img class="logo" alt="logo" src="src/assets/img/Knotty-logo.png" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -11,19 +11,36 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
-        <li>
-          <router-link :to="{ name: 'Gallery' }" class="btn text-light fs-5 lighten-30 selectable text-uppercase">
-            Gallery
-          </router-link>
+        <div class="dropdown">
+          <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="mdi mdi-dots-horizontal text-light dropdown-options"></i>
+          </button>
+          <ul class="dropdown-menu drop-menu">
+            <li>
+              <router-link :to="{ name: 'Gallery' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+                Gallery
+              </router-link>
+            </li>
 
-          <router-link :to="{ name: 'About' }" class="btn text-light fs-5 lighten-30 selectable text-uppercase">
-            About
-          </router-link>
+            <li>
+              <router-link :to="{ name: 'About' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+                About
+              </router-link>
+            </li>
+            <li>
+              <router-link :to="{ name: 'Contact' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+                Contact
+              </router-link>
+            </li>
+          </ul>
+        </div>
 
-          <router-link :to="{ name: 'Contact' }" class="btn text-light fs-5 lighten-30 selectable text-uppercase">
-            Contact
-          </router-link>
-        </li>
+
+
+
+
+
+
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <!-- <div>
@@ -86,5 +103,24 @@ a:hover {
   background-color: #113736;
   /* background-color: #CACAAA; */
 
+}
+
+.logo {
+  height: 11vh;
+  width: auto;
+  text-shadow: 10px 10px 10px black;
+}
+
+.dropdown-options {
+  font-size: 10vh;
+  box-shadow: none;
+}
+
+
+.drop-menu {
+  background-color: #e4a960;
+  border: .5rem solid #361112;
+  border-radius: 40px;
+  text-align: center;
 }
 </style>
