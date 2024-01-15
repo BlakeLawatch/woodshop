@@ -20,11 +20,11 @@
           </div>
           <div class="col-3 cards my-5 d-flex flex-column justify-content-center">
             <h1 class="mb-5">2</h1>
-            <h2>Locally Sourced Lumber</h2>
+            <h2 class="fw-bold">Locally Sourced Lumber</h2>
           </div>
           <div class="col-3 cards my-5 d-flex flex-column justify-content-center">
             <h1 class="mb-5">3</h1>
-            <h2>Born and Raised in Boise ID</h2>
+            <h2 class="fw-bold">Born and Raised in Boise ID</h2>
           </div>
 
         </section>
@@ -50,9 +50,9 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
 
 .bg-image {
-  background-image: url(src/assets/img/Project-images/bg-image.png);
-  height: 100svh;
-  background-position: right;
+  background-image: url(src/assets/img/Project-images/bg-image-shop.png);
+  height: 90svh;
+  background-position: center;
   background-size: cover;
 }
 
@@ -67,7 +67,7 @@ export default {
 
 .cards {
   height: 30vh;
-  color: white;
+  color: #361112c7;
   background-color: #e4a960;
   border-radius: 15px;
   padding-top: .5rem;
@@ -75,10 +75,11 @@ export default {
 }
 
 .cards:hover {
-  background-color: #bfa17c;
+  background-color: #624120;
+  color: #e4a960;
   transition: ease-in-out 1s;
   animation-name: card;
-  animation-duration: 5s;
+  animation-duration: 2s;
   // animation-delay: ;
 
 }
