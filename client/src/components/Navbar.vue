@@ -12,7 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
         <div class="dropdown">
-          <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="mdi mdi-dots-grid text-light dropdown-options"></i>
           </button>
           <ul class="dropdown-menu drop-menu">
@@ -113,6 +113,7 @@ a:hover {
 
 .dropdown-options {
   font-size: 8vh;
+  border-color: black;
 }
 
 

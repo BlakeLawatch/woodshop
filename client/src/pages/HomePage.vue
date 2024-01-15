@@ -79,7 +79,7 @@ export default {
   color: #e4a960;
   transition: ease-in-out 1s;
   animation-name: card;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   // animation-delay: ;
 
 }
