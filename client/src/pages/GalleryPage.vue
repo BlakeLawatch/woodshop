@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <Navbar />
       <div class="row">
-        <div class="col-md-12 d-flex flex-wrap justify-content-center">
+        <div class="col-md-12 d-flex flex-wrap justify-content-center py-5">
           <div class="col-md-3 p-3" v-for="(image, index) in images" :key="index">
             <img class="img-fluid max-height selectable" :src="image.src" :alt="image.alt" @click="enlargeImage(index)" />
           </div>
@@ -84,7 +84,7 @@ export default {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  // border: 10px solid rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,6 +94,8 @@ export default {
 .enlarged img {
   max-width: 90%;
   max-height: 90%;
+  border-radius: 15px;
+  filter: drop-shadow(0rem 0rem 15px #0a0a0a);
 
 }
 
