@@ -1,11 +1,16 @@
 <template>
   <div class="container-fluid">
     <section class="row align-items-end">
-      <div class="bg-image text-light">
+      <div class=" col-12 bg-image text-light">
         <Navbar />
-        <CarouselComponent />
+        <div class="d-flex justify-content-center">
+          <div class="col-12">
+            <CarouselComponent />
 
+          </div>
+        </div>
       </div>
+
 
     </section>
 

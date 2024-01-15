@@ -9,7 +9,7 @@
             <img class="item img-fluid" src="src/assets/img/Project-images/cutting-boards.png" alt="1">
             <img class="item img-fluid" src="src/assets/img/Project-images/Shoe-rack-naked.png" alt="2">
             <img class="item img-fluid" src="src/assets/img/Project-images/book-rack.png" alt="3">
-            <img class="item img-fluid" src="src/assets/img/Project-images/board-epoxy.png" alt="4">
+            <img class="item img-fluid" src="src/assets/img/Project-images/yello-table-flowers.png" alt="4">
             <img class="item img-fluid" src="src/assets/img/Project-images/corn-hole.png" alt="5">
         </main>
     </div>
@@ -68,7 +68,7 @@ div {
     justify-items: center;
     margin: 0;
     padding: 0;
-    background-color: #18181880;
+    // background-color: #18181880;
     // width: 30vw;
     // height: 100svh;
     // background-position: cover;
@@ -101,7 +101,7 @@ main#carousel {
 img.item {
     max-width: 100%;
     position: absolute;
-    width: 300px;
+    width: 330px;
     height: 400px;
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
