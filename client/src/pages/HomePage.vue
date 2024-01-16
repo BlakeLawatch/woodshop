@@ -12,7 +12,7 @@
     </section>
     <section class="row">
       <div class="col-12 bg-card">
-        <h1 class="why-us mt-4 ms-4">Why Chose Us?</h1>
+        <h1 class="why-us mt-4 ms-4">Why Choose Us?</h1>
         <section class="d-flex justify-content-around">
           <div class="col-3 cards my-5 d-flex flex-column justify-content-center">
             <h1 class="mb-5">1</h1>
