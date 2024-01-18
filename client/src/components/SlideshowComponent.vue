@@ -1,34 +1,24 @@
 <template>
-  <div class="slideshow-container">
-
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="img_nature_wide.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade d-flex justify-content-center">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="src/assets/img/Project-images/couch-table-zoom-out.png" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="src/assets/img/Project-images/corn-hole-close.png" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="src/assets/img/Project-images/Shoe-rack-naked.png" alt="...">
+      </div>
     </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-
-  </div>
-  <br>
-
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </template>
 
@@ -38,10 +28,14 @@ import { AppState } from '../AppState';
 import { computed, reactive, onMounted } from 'vue';
 export default {
   setup() {
-    return {}
   }
 };
 </script>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+  height: 50vh;
+  width: 50vw;
+}
+</style>

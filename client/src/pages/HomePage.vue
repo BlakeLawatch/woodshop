@@ -4,7 +4,7 @@
       <div class=" col-12 bg-image text-light">
         <Navbar />
         <div class="d-flex justify-content-center">
-          <div class="col-12">
+          <div class="col-12 text-center">
             <SlideshowComponent />
           </div>
         </div>
@@ -36,7 +36,7 @@
 <script>
 import CarouselComponent from '../components/CarouselComponent.vue';
 import Navbar from '../components/Navbar.vue';
-import SlideshowComponent from "../components/SlideshowComponent.vue.js";
+import SlideshowComponent from "../components/SlideshowComponent.vue";
 
 
 export default {
