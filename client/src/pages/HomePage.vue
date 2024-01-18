@@ -51,7 +51,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
 
 .bg-image {
-  background-image: url(src/assets/img/Project-images/bg-image-shop.png);
+  // background-image: url(src/assets/img/Project-images/bg-image-shop.png);
+  background-color: #816E5E;
   height: 90svh;
   background-position: center;
   background-size: cover;

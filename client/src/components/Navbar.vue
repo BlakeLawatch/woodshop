@@ -12,29 +12,27 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
         <div class="dropdown">
-          <button class="btn" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="mdi mdi-dots-grid text-light dropdown-options"></i>
-          </button>
-          <ul class="dropdown-menu drop-menu">
-            <li>
-              <router-link :to="{ name: 'Gallery' }"
-                class="btn text-hover fs-5 fw-bold lighten-30 selectable text-uppercase">
-                Gallery
-              </router-link>
-            </li>
 
-            <li>
-              <router-link :to="{ name: 'About' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
-                About
-              </router-link>
-            </li>
-            <li>
-              <router-link :to="{ name: 'Contact' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
-                Contact
-              </router-link>
-            </li>
 
-          </ul>
+          <li>
+            <router-link :to="{ name: 'Gallery' }"
+              class="btn text-hover fs-5 fw-bold lighten-30 selectable text-uppercase">
+              Gallery
+            </router-link>
+          </li>
+
+          <li>
+            <router-link :to="{ name: 'About' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+              About
+            </router-link>
+          </li>
+          <li>
+            <router-link :to="{ name: 'Contact' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+              Contact
+            </router-link>
+          </li>
+
+
         </div>
 
 

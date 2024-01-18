@@ -20,12 +20,10 @@
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+      <span class="font"><i class="mdi mdi-less-than"></i></span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+      <span><i class="mdi mdi-greater-than"></i></span>
     </button>
   </div>
 </template>
@@ -45,5 +43,14 @@ export default {
 img {
   height: 50vh;
   width: 50vw;
+}
+
+.mdi-greater-than {
+  font-size: 10rem;
+}
+
+
+.mdi-less-than {
+  font-size: 10rem;
 }
 </style>
