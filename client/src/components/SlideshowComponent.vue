@@ -8,15 +8,15 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner p-4">
       <div class="carousel-item active">
-        <img src="src/assets/img/Project-images/board-epoxy.png" alt="0">
+        <img src="src/assets/img/Project-images/board-epoxy.png" class="img-fluid" alt="0">
       </div>
       <div class="carousel-item">
-        <img src="src/assets/img/Project-images/book-rack-backside.png" alt="1">
+        <img src="src/assets/img/Project-images/book-rack-backside.png" class="img-fluid" alt="1">
       </div>
       <div class="carousel-item">
-        <img src="src/assets/img/Project-images/couch-table-zoom-out.png" alt="2">
+        <img src="src/assets/img/Project-images/couch-table-zoom-out.png" class="img-fluid" alt="2">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -43,6 +43,13 @@ export default {
 img {
   height: 50vh;
   width: 50vw;
+}
+
+.img-fluid {
+  border-radius: 15px;
+  margin-right: 25px;
+  box-shadow: (1rem 1rem 10px rgba(0, 0, 0, 0.641));
+
 }
 
 .mdi-greater-than {

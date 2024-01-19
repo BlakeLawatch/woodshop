@@ -11,36 +11,28 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
-        <div class="dropdown">
+        <div class="d-flex dropdown">
 
 
           <li>
             <router-link :to="{ name: 'Gallery' }"
-              class="btn text-hover fs-5 fw-bold lighten-30 selectable text-uppercase">
+              class="btn text-hover fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
               Gallery
             </router-link>
           </li>
 
           <li>
-            <router-link :to="{ name: 'About' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+            <router-link :to="{ name: 'About' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
               About
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Contact' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase">
+            <router-link :to="{ name: 'Contact' }"
+              class="btn fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
               Contact
             </router-link>
           </li>
-
-
         </div>
-
-
-
-
-
-
-
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <!-- <div>
@@ -99,27 +91,8 @@ a:hover {
   }
 }
 
-.navbar-color {
-  background-color: #113736;
-  /* background-color: #CACAAA; */
-
-}
-
 .logo {
   height: 11vh;
   width: auto;
-}
-
-.dropdown-options {
-  font-size: 8vh;
-  border-color: black;
-}
-
-
-.drop-menu {
-  background-color: #e4a960;
-  border: .5rem solid #361112;
-  border-radius: 40px;
-  text-align: center;
 }
 </style>
