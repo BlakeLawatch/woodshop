@@ -5,14 +5,19 @@
         <Navbar />
         <div class="d-flex justify-content-center">
           <div class="col-12 text-center">
-            <SlideshowComponent />
+            <p class="gradient-text">Knotty Wood Shop</p>
+            <div class="component-view">
+              <SlideshowComponent />
+
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="row bg-card">
-      <h1 class="why-us mt-4 ms-4">Why Choose Us?</h1>
-      <div class="d-flex justify-content-around">
+      <h1 class="why-us mt-4 px-5">Why Choose Us?</h1>
+      <section class="row d-flex justify-content-around">
+
         <div class="col-12 col-md-3 cards my-5 d-flex flex-column justify-content-center">
           <h1 class="mb-5">1</h1>
           <h2 class="fw-bold">Locally Owned</h2>
@@ -25,7 +30,9 @@
           <h1 class="mb-5">3</h1>
           <h2 class="fw-bold">Born and Raised in Boise ID</h2>
         </div>
-      </div>
+
+
+      </section>
     </section>
   </div>
 </template>
@@ -46,6 +53,7 @@ export default {
 
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 
 .bg-image {
   background-color: #816E5E;
@@ -96,7 +104,25 @@ export default {
     // transform: scaleX(100%);
     transform: scaleY(100%);
   }
+}
 
+.gradient-text {
+  font-family: "El Messiri", sans-serif;
+  font-size: 4rem;
+  background-image: linear-gradient(to right, #361112, #e4a960, #ddbf99);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
 
+@media (max-width: 767px) {
+  .component-view {
+    visibility: hidden;
+    display: none;
+
+  }
 }
 </style>
