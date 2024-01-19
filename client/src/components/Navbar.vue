@@ -14,14 +14,14 @@
         <div class="d-flex dropdown">
 
 
-          <li>
+          <li class="bordering">
             <router-link :to="{ name: 'Gallery' }"
               class="btn text-hover fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
               Gallery
             </router-link>
           </li>
 
-          <li>
+          <li class="bordering">
             <router-link :to="{ name: 'About' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
               About
             </router-link>
@@ -94,5 +94,9 @@ a:hover {
 .logo {
   height: 11vh;
   width: auto;
+}
+
+.bordering {
+  border-right: thin dashed #361112;
 }
 </style>

@@ -10,24 +10,21 @@
         </div>
       </div>
     </section>
-    <section class="row">
-      <div class="col-12 bg-card">
-        <h1 class="why-us mt-4 ms-4">Why Choose Us?</h1>
-        <section class="d-flex justify-content-around">
-          <div class="col-3 cards my-5 d-flex flex-column justify-content-center">
-            <h1 class="mb-5">1</h1>
-            <h2 class="fw-bold">Locally Owned</h2>
-          </div>
-          <div class="col-3 cards my-5 d-flex flex-column justify-content-center">
-            <h1 class="mb-5">2</h1>
-            <h2 class="fw-bold">Locally Sourced Lumber</h2>
-          </div>
-          <div class="col-3 cards my-5 d-flex flex-column justify-content-center">
-            <h1 class="mb-5">3</h1>
-            <h2 class="fw-bold">Born and Raised in Boise ID</h2>
-          </div>
-
-        </section>
+    <section class="row bg-card">
+      <h1 class="why-us mt-4 ms-4">Why Choose Us?</h1>
+      <div class="d-flex justify-content-around">
+        <div class="col-12 col-md-3 cards my-5 d-flex flex-column justify-content-center">
+          <h1 class="mb-5">1</h1>
+          <h2 class="fw-bold">Locally Owned</h2>
+        </div>
+        <div class="col-12 col-md-3 cards my-5 d-flex flex-column justify-content-center">
+          <h1 class="mb-5">2</h1>
+          <h2 class="fw-bold">Locally Sourced Lumber</h2>
+        </div>
+        <div class="col-12 col-md-3 cards my-5 d-flex flex-column justify-content-center">
+          <h1 class="mb-5">3</h1>
+          <h2 class="fw-bold">Born and Raised in Boise ID</h2>
+        </div>
       </div>
     </section>
   </div>
@@ -51,11 +48,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
 
 .bg-image {
-  // background-image: url(src/assets/img/Project-images/bg-image-shop.png);
   background-color: #816E5E;
   height: 90svh;
-  background-position: center;
-  background-size: cover;
 }
 
 .bg-card {

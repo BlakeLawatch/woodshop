@@ -1,6 +1,6 @@
 <template>
   <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
-    <div class="carousel-indicators">
+    <div class="carousel-indicators p-4">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
@@ -10,13 +10,13 @@
     </div>
     <div class="carousel-inner p-4">
       <div class="carousel-item active">
-        <img src="src/assets/img/Project-images/board-epoxy.png" class="img-fluid" alt="0">
+        <img src="src/assets/img/Project-images/corn-hole.png" class="img-fluid" alt="0">
       </div>
       <div class="carousel-item">
         <img src="src/assets/img/Project-images/book-rack-backside.png" class="img-fluid" alt="1">
       </div>
       <div class="carousel-item">
-        <img src="src/assets/img/Project-images/couch-table-zoom-out.png" class="img-fluid" alt="2">
+        <img src="src/assets/img/Project-images/cutting-boards.png" class="img-fluid" alt="2">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 img {
   height: 50vh;
-  width: 50vw;
+  width: 45vw;
 }
 
 .img-fluid {
