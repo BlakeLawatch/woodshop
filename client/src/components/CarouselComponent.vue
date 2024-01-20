@@ -12,21 +12,6 @@
             <img class="item img-fluid" src="src/assets/img/Project-images/Shoe-rack-naked.png" alt="4">
             <img class="item img-fluid" src="src/assets/img/Project-images/doggy-door.png" alt="5">
         </main>
-        <div class="carousel-item active">
-            <img src="src/assets/img/Project-images/corn-hole.png" class="img-fluid" alt="0">
-        </div>
-        <div class="carousel-item">
-            <img src="src/assets/img/Project-images/book-rack-backside.png" class="img-fluid" alt="1">
-        </div>
-        <div class="carousel-item">
-            <img src="src/assets/img/Project-images/cutting-boards.png" class="img-fluid" alt="2">
-        </div>
-        <div class="carousel-item">
-            <img src="src/assets/img/Project-images/Shoe-rack-naked.png" class="img-fluid" alt="2">
-        </div>
-        <div class="carousel-item">
-            <img src="src/assets/img/Project-images/doggy-door.png" class="img-fluid" alt="2">
-        </div>
     </div>
 </template>
   
