@@ -6,12 +6,27 @@
         <input type="radio" name="position" :checked="currentPosition === 4" />
         <input type="radio" name="position" :checked="currentPosition === 5" />
         <main id="carousel" class="carousel-container">
-            <img class="item img-fluid" src="src/assets/img/Project-images/cutting-boards.png" alt="1">
-            <img class="item img-fluid" src="src/assets/img/Project-images/Shoe-rack-naked.png" alt="2">
-            <img class="item img-fluid" src="src/assets/img/Project-images/book-rack.png" alt="3">
-            <img class="item img-fluid" src="src/assets/img/Project-images/yello-table-flowers.png" alt="4">
-            <img class="item img-fluid" src="src/assets/img/Project-images/corn-hole.png" alt="5">
+            <img class="item img-fluid" src="src/assets/img/Project-images/corn-hole.png" alt="1">
+            <img class="item img-fluid" src="src/assets/img/Project-images/book-rack-backside.png" alt="2">
+            <img class="item img-fluid" src="src/assets/img/Project-images/cutting-boards.png" alt="3">
+            <img class="item img-fluid" src="src/assets/img/Project-images/Shoe-rack-naked.png" alt="4">
+            <img class="item img-fluid" src="src/assets/img/Project-images/doggy-door.png" alt="5">
         </main>
+        <div class="carousel-item active">
+            <img src="src/assets/img/Project-images/corn-hole.png" class="img-fluid" alt="0">
+        </div>
+        <div class="carousel-item">
+            <img src="src/assets/img/Project-images/book-rack-backside.png" class="img-fluid" alt="1">
+        </div>
+        <div class="carousel-item">
+            <img src="src/assets/img/Project-images/cutting-boards.png" class="img-fluid" alt="2">
+        </div>
+        <div class="carousel-item">
+            <img src="src/assets/img/Project-images/Shoe-rack-naked.png" class="img-fluid" alt="2">
+        </div>
+        <div class="carousel-item">
+            <img src="src/assets/img/Project-images/doggy-door.png" class="img-fluid" alt="2">
+        </div>
     </div>
 </template>
   
@@ -59,7 +74,7 @@ export default {
   
 <style scoped lang="scss">
 div {
-    // height: 600px;
+    height: 100vh;
     margin: 0;
     display: grid;
     grid-template-rows: 500px 100px;
@@ -85,7 +100,7 @@ main#carousel {
     grid-row: 1 / 2;
     grid-column: 1 / 8;
     width: 100vw;
-    height: 500px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,8 +116,8 @@ main#carousel {
 img.item {
     max-width: 100%;
     position: absolute;
-    width: 330px;
-    height: 400px;
+    width: 100vw;
+    height: 100vh;
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
     transition: all 0.25s linear;

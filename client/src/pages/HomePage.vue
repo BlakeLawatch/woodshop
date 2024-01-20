@@ -4,11 +4,11 @@
       <div class=" col-12 bg-image text-light">
         <Navbar />
         <div class="d-flex justify-content-center">
-          <div class="col-12 text-center">
+          <div class="col-10 text-center">
             <p class="gradient-text">Knotty Wood Shop</p>
-            <div class="component-view">
-              <SlideshowComponent />
-
+            <div>
+              <CarouselComponent class="carousel-view" />
+              <SlideshowComponent class="slideshow-view" />
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ export default {
 
 .gradient-text {
   font-family: "El Messiri", sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   background-image: linear-gradient(to right, #361112, #e4a960, #ddbf99);
   background-size: 100%;
   background-repeat: repeat;
@@ -119,10 +119,22 @@ export default {
 }
 
 @media (max-width: 767px) {
-  .component-view {
+  .slideshow-view {
     visibility: hidden;
     display: none;
 
+  }
+}
+
+.carousel-view {
+  height: 30vh;
+  width: 80vw;
+}
+
+@media (min-width: 767px) {
+  .carousel-view {
+    visibility: hidden;
+    display: none;
   }
 }
 </style>
