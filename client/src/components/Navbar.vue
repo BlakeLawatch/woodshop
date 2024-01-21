@@ -100,12 +100,12 @@ a:hover {
 
 .options {
   font-size: 1.4rem;
+  text-shadow: 1px 1px 1.5px #361112;
   color: white;
 }
 
 .options:hover {
-  text-shadow: 2px 2px 3px #361112;
-  /* color: #361112; */
-  transition: ease-in-out .5s;
+  text-shadow: 2.5px 2.5px 3.5px #361112;
+  transition: ease-in-out .4s;
 }
 </style>
