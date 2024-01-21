@@ -18,15 +18,15 @@
       <h1 class="why-us mt-4 px-5">Why Choose Us?</h1>
       <section class="text-center">
         <div class="row d-flex justify-content-around">
-          <div class="col-11 col-md-3 text-center cards my-2 d-flex flex-column justify-content-center">
+          <div class="col-11 col-md-3 text-center cards my-3 d-flex flex-column justify-content-center">
             <h1 class="mb-5">1</h1>
             <h2 class="fw-bold">Locally Owned</h2>
           </div>
-          <div class="col-11 col-md-3 text-center cards my-2 d-flex flex-column justify-content-center">
+          <div class="col-11 col-md-3 text-center cards my-3 d-flex flex-column justify-content-center">
             <h1 class="mb-5">2</h1>
             <h2 class="fw-bold">Locally Sourced Lumber</h2>
           </div>
-          <div class="col-11 col-md-3 text-center cards my-2 d-flex flex-column justify-content-center">
+          <div class="col-11 col-md-3 text-center cards my-3 d-flex flex-column justify-content-center">
             <h1 class="mb-5">3</h1>
             <h2 class="fw-bold">Born and Raised in Boise ID</h2>
           </div>
@@ -99,7 +99,7 @@ export default {
 
   50% {
     // transform: scaleX(120%);
-    transform: scaleY(120%);
+    transform: scaleY(110%);
   }
 
   to {
