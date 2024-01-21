@@ -15,20 +15,18 @@
 
 
           <li class="bordering">
-            <router-link :to="{ name: 'Gallery' }"
-              class="btn text-hover fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
+            <router-link :to="{ name: 'Gallery' }" class="btn options fw-bold text-uppercase">
               Gallery
             </router-link>
           </li>
 
           <li class="bordering">
-            <router-link :to="{ name: 'About' }" class="btn fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
+            <router-link :to="{ name: 'About' }" class="btn options fw-bold text-uppercase">
               About
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Contact' }"
-              class="btn fs-5 fw-bold lighten-30 selectable text-uppercase text-light">
+            <router-link :to="{ name: 'Contact' }" class="btn options fw-bold text-uppercase">
               Contact
             </router-link>
           </li>
@@ -98,5 +96,16 @@ a:hover {
 
 .bordering {
   border-right: thin dashed #361112;
+}
+
+.options {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.options:hover {
+  text-shadow: 2px 2px 3px #361112;
+  /* color: #361112; */
+  transition: ease-in-out .5s;
 }
 </style>
