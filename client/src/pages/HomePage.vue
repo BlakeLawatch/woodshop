@@ -18,15 +18,15 @@
       <h1 class="why-us mt-4 px-5">Why Choose Us?</h1>
       <section class="text-center">
         <div class="row d-flex justify-content-around">
-          <div class="col-11 col-md-3 text-center cards my-3 d-flex flex-column justify-content-center">
+          <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">1</h1>
             <h2 class="fw-bold">Locally Owned</h2>
           </div>
-          <div class="col-11 col-md-3 text-center cards my-3 d-flex flex-column justify-content-center">
+          <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">2</h1>
             <h2 class="fw-bold">Locally Sourced Lumber</h2>
           </div>
-          <div class="col-11 col-md-3 text-center cards my-3 d-flex flex-column justify-content-center">
+          <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">3</h1>
             <h2 class="fw-bold">Born and Raised in Boise ID</h2>
           </div>
@@ -73,6 +73,8 @@ export default {
   background-color: #e4a960;
   border-radius: 15px;
   padding-top: .5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   align-items: center;
 }
 
@@ -86,20 +88,23 @@ export default {
 
 }
 
+@media(max-width: 767px) {
+  .cards {
+    margin-bottom: 1rem;
+  }
+}
+
 @keyframes card {
   from {
-    // transform: scaleX(100%);
     transform: scaleY(100%);
 
   }
 
   50% {
-    // transform: scaleX(120%);
     transform: scaleY(110%);
   }
 
   to {
-    // transform: scaleX(100%);
     transform: scaleY(100%);
   }
 }

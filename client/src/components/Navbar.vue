@@ -62,7 +62,7 @@ export default {
       document.documentElement.setAttribute('data-bs-theme', theme.value)
     })
     function goToGallery() {
-      window.scrollBy(0, 950)
+      window.scrollBy(0, 1000)
     }
     function goToAbout() {
       window.scrollBy(0, 75)
