@@ -62,13 +62,13 @@ export default {
       document.documentElement.setAttribute('data-bs-theme', theme.value)
     })
     function goToGallery() {
-      window.scrollBy(0, 1000)
+      window.scrollTo(0, 1000)
     }
     function goToAbout() {
-      window.scrollBy(0, 75)
+      window.scrollTo(0, 2000)
     }
     function goToContact() {
-      window.scrollBy(0, 100)
+      window.scrollTo(0, 3000)
     }
 
     return {
