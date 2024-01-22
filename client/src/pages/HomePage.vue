@@ -30,33 +30,32 @@
             <h1 class="mb-5">3</h1>
             <h2 class="fw-bold">Born and Raised in Boise ID</h2>
           </div>
-
         </div>
-
-
       </section>
+    </section>
+    <section class="row">
+      <GalleryComponent />
     </section>
   </div>
 </template>
 
 <script>
 import CarouselComponent from '../components/CarouselComponent.vue';
+import GalleryComponent from '../components/GalleryComponent.vue';
 import Navbar from '../components/Navbar.vue';
 import SlideshowComponent from "../components/SlideshowComponent.vue";
 
 
 export default {
   setup() {
-    return {};
+    return {}
+      ;
   },
-  components: { CarouselComponent, Navbar, SlideshowComponent }
+  components: { CarouselComponent, Navbar, SlideshowComponent, GalleryComponent }
 }
 </script>
 
 <style scoped lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
-
 .bg-image {
   background-color: #816E5E;
   height: 90svh;
@@ -66,10 +65,7 @@ export default {
   background-color: #361112;
 }
 
-.why-us {
-  font-family: 'Holtwood One SC', sans-serif;
-  color: whitesmoke;
-}
+
 
 .cards {
   height: 30vh;

@@ -12,9 +12,21 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
         <div class="d-flex dropdown">
-
-
-          <li class="bordering">
+          <li @click="goToGallery()" class="btn options fw-bold text-uppercase bordering">
+            Gallery
+          </li>
+          <li @click="goToAbout()" class="btn options fw-bold text-uppercase bordering">
+            About
+          </li>
+          <li @click="goToContact()" class="btn options fw-bold text-uppercase">
+            Contact
+          </li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+</template>
+          <!-- <li class="bordering">
             <router-link :to="{ name: 'Gallery' }" class="btn options fw-bold text-uppercase">
               Gallery
             </router-link>
@@ -29,18 +41,13 @@
             <router-link :to="{ name: 'Contact' }" class="btn options fw-bold text-uppercase">
               Contact
             </router-link>
-          </li>
-        </div>
-      </ul>
+          </li> -->
       <!-- LOGIN COMPONENT HERE -->
       <!-- <div>
         <button class="btn text-light" @click="toggleTheme"><i class="mdi"
             :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i></button>
       </div>
       <Login /> -->
-    </div>
-  </nav>
-</template>
 
 <script>
 import { onMounted, ref } from 'vue';
@@ -54,8 +61,20 @@ export default {
     onMounted(() => {
       document.documentElement.setAttribute('data-bs-theme', theme.value)
     })
+    function goToGallery() {
+      window.scrollBy(0, 950)
+    }
+    function goToAbout() {
+      window.scrollBy(0, 75)
+    }
+    function goToContact() {
+      window.scrollBy(0, 100)
+    }
 
     return {
+      goToGallery,
+      goToAbout,
+      goToContact,
       theme,
       toggleTheme() {
         theme.value = theme.value == 'light' ? 'dark' : 'light'
