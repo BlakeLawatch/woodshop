@@ -36,10 +36,14 @@
     <section class="row">
       <GalleryComponent />
     </section>
+    <section class="row">
+      <AboutUsComponent />
+    </section>
   </div>
 </template>
 
 <script>
+import AboutUsComponent from '../components/AboutUsComponent.vue';
 import CarouselComponent from '../components/CarouselComponent.vue';
 import GalleryComponent from '../components/GalleryComponent.vue';
 import Navbar from '../components/Navbar.vue';
@@ -51,7 +55,7 @@ export default {
     return {}
       ;
   },
-  components: { CarouselComponent, Navbar, SlideshowComponent, GalleryComponent }
+  components: { CarouselComponent, Navbar, SlideshowComponent, GalleryComponent, AboutUsComponent }
 }
 </script>
 
