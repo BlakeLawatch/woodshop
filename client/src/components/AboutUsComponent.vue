@@ -1,35 +1,27 @@
 <template>
-    <section class="row bg">
-        <h1 class="why-us mt-4 px-5">Gallery</h1>
-        <div class="col-12 d-flex justify-content-center">
-            <div class="col-9">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente beatae minima ut dolorum vitae
-                    cupiditate
-                    corporis a molestiae illo voluptatibus? Architecto eum sunt eveniet animi officia corporis consequuntur
-                    reprehenderit deleniti iure doloremque quidem sed consequatur, repudiandae laudantium non tempora
-                    molestiae
-                    numquam ab enim hic? Delectus ex earum aliquid at ducimus?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium in officiis mollitia accusamus,
-                    quia,
-                    neque
-                    quisquam vel explicabo animi adipisci asperiores commodi quasi facilis blanditiis optio nemo possimus
-                    magnam
-                    quibusdam dolorem dolores dolorum veniam ab officia? Maiores culpa adipisci ut dicta voluptas ipsa dolor
-                    magni
-                    fugit, blanditiis deserunt, vitae consectetur exercitationem voluptatum pariatur odio nihil ea quos
-                    accusamus
-                    velit quo voluptatem repellat nesciunt. Porro voluptas nihil in ullam tempora tenetur distinctio at iure
-                    quo
-                    deleniti.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eligendi explicabo quibusdam nesciunt
-                    nulla
-                    eum rem voluptate dolores suscipit laboriosam!</p>
-
-            </div>
+    <div class="bg">
+        <div class="d-flex justify-content-around">
+            <h1 class="why-us mt-4 px-5 mb-4">About Us</h1>
+            <h1 class="why-us mt-4 px-5 mb-4">Contact Us</h1>
 
         </div>
 
-    </section>
+        <div class="col-12 d-flex justify-content-center">
+            <div class="col-12 col-md-6 split">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rem ex dolorum
+                    eveniet quidem!
+                    Consequatur molestiae iure illo cumque quasi.</p>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, in!</p>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus incidunt
+                    voluptas expedita eum non
+                    nobis, reiciendis quod facere nostrum in.</p>
+            </div>
+            <div class="col-12 col-md-6">
+
+            </div>
+        </div>
+
+    </div>
 </template>
 
 
@@ -48,6 +40,11 @@ export default {
 }
 
 p {
-    font-size: 30px;
+    font-size: 15px;
     font-family: cursive;
-}</style>
+}
+
+.split {
+    border-right: thin solid #361112c7;
+}
+</style>

@@ -35,9 +35,9 @@
     </section>
     <section class="row">
       <GalleryComponent />
+      <AboutUsComponent />
     </section>
     <section class="row">
-      <AboutUsComponent />
     </section>
   </div>
 </template>
