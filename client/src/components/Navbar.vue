@@ -12,15 +12,22 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
         <div class="d-flex dropdown">
-          <li @click="goToGallery()" class="btn options fw-bold text-uppercase bordering">
-            Gallery
-          </li>
-          <li @click="goToAbout()" class="btn options fw-bold text-uppercase bordering">
-            About
-          </li>
-          <li @click="goToContact()" class="btn options fw-bold text-uppercase">
-            Contact
-          </li>
+          <div class="bordering">
+            <li @click="goToGallery()" class="btn options fw-bold text-uppercase">
+              Gallery
+            </li>
+
+          </div>
+          <div class="bordering">
+            <li @click="goToAbout()" class="btn options fw-bold text-uppercase">
+              About
+            </li>
+          </div>
+          <div>
+            <li @click="goToContact()" class="btn options fw-bold text-uppercase">
+              Contact
+            </li>
+          </div>
         </div>
       </ul>
     </div>
