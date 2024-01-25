@@ -34,8 +34,8 @@
       </section>
     </section>
     <section class="row">
-      <GalleryComponent />
-      <AboutUsComponent />
+      <GalleryComponent id="gallery" />
+      <AboutUsComponent id="about" />
     </section>
     <section class="row">
     </section>
