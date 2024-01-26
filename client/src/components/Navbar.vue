@@ -13,24 +13,18 @@
       <ul class="navbar-nav ms-auto">
         <div class="d-flex dropdown">
           <div class="bordering">
-            <li class="btn options fw-bold text-uppercase">
-              <a href="#gallery">
-                Gallery
-              </a>
+            <li @click="goToGallery()" class="btn options fw-bold text-uppercase">
+              Gallery
             </li>
           </div>
           <div class="bordering">
-            <li class="btn options fw-bold text-uppercase">
-              <a href="#about">
-                About
-              </a>
+            <li @click="goToAbout()" class="btn options fw-bold text-uppercase">
+              About
             </li>
           </div>
           <div>
-            <li class="btn options fw-bold text-uppercase">
-              <a href="#about">
-                Contact
-              </a>
+            <li @click="goToAbout()" class="btn options fw-bold text-uppercase">
+              Contact
             </li>
           </div>
         </div>
@@ -73,12 +67,12 @@ export default {
     onMounted(() => {
       document.documentElement.setAttribute('data-bs-theme', theme.value)
     })
-    // function goToGallery() {
-    //   window.scrollTo(0, 1000)
-    // }
-    // function goToAbout() {
-    //   window.scrollTo(0, 2000)
-    // }
+    function goToGallery() {
+      window.scrollTo(0, 1000)
+    }
+    function goToAbout() {
+      window.scrollTo(0, 2000)
+    }
     // function goToContact() {
     //   window.scrollTo(0, 3000)
     // }
@@ -86,7 +80,7 @@ export default {
     return {
       goToGallery,
       goToAbout,
-      goToContact,
+      // goToContact,
       theme,
       toggleTheme() {
         theme.value = theme.value == 'light' ? 'dark' : 'light'
