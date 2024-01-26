@@ -35,7 +35,7 @@
     </section>
     <section class="row">
       <GalleryComponent />
-      <AboutUsComponent />
+      <AboutUsComponent class="border-style" />
     </section>
     <section class="row">
     </section>
@@ -143,5 +143,9 @@ export default {
     visibility: hidden;
     display: none;
   }
+}
+
+.border-style {
+  box-shadow: inset 0px 6px 10px #ffffff;
 }
 </style>

@@ -17,7 +17,29 @@
                     nobis, reiciendis quod facere nostrum in.</p>
             </div>
             <div class="col-12 col-md-6">
-
+                <form method="post" action="">
+                    <div class="d-flex ms-4">
+                        <div class="mb-3 col-4">
+                            <input type="text" class="form-control" placeholder="Your Name" name="name" id="name"
+                                minlength="4" maxlength="20" required>
+                        </div>
+                        <div class="mb-3 ms-4 col-5">
+                            <input type="email" class="form-control" placeholder="Your Email" name="email" id="email"
+                                minlength="4" maxlength="40" required>
+                        </div>
+                    </div>
+                    <div class="ms-4">
+                        <div class="mb-3 col-10">
+                            <input type="subject" class="form-control" placeholder="Subject" name="subject" id="subject"
+                                minlength="4" maxlength="60" required>
+                        </div>
+                        <div class="mb-3 col-10">
+                            <textarea type="text" class="form-control" placeholder="Message..." name="message" id="message"
+                                minlength="4" maxlength="400" rows="8" required></textarea>
+                        </div>
+                    </div>
+                    <button class="btn rounded-pill btn-outline-success">Send Message</button>
+                </form>
             </div>
         </div>
 
