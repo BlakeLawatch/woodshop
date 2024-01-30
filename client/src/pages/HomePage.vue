@@ -38,6 +38,7 @@
       <AboutUsComponent class="border-style" />
     </section>
     <section class="row">
+      <div class="text-center">Hello World</div>
     </section>
   </div>
 </template>
@@ -48,6 +49,7 @@ import CarouselComponent from '../components/CarouselComponent.vue';
 import GalleryComponent from '../components/GalleryComponent.vue';
 import Navbar from '../components/Navbar.vue';
 import SlideshowComponent from "../components/SlideshowComponent.vue";
+
 
 
 export default {
