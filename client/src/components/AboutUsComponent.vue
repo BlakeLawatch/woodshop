@@ -1,7 +1,7 @@
 <template>
     <div class="bg">
         <section class="row">
-            <div class=" col-12 col-md-6">
+            <div class=" col-12 col-md-6 mb-3">
                 <h1 class="why-us mt-4 px-5 mb-4 text-center">About Us</h1>
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rem ex dolorum
                     eveniet quidem!
@@ -11,7 +11,7 @@
                     voluptas expedita eum non
                     nobis, reiciendis quod facere nostrum in.</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mb-3">
                 <h1 class="why-us mt-4 px-5 mb-4 text-center">Contact Us</h1>
                 <form method="post" action="">
                     <div class="d-flex ms-4">
@@ -34,7 +34,10 @@
                                 minlength="4" maxlength="400" rows="8" required></textarea>
                         </div>
                     </div>
-                    <button class="btn rounded-pill btn-outline-success">Send Message</button>
+                    <div class="text-end">
+                        <button class="btn rounded-pill btn-outline-main">Send Message</button>
+
+                    </div>
                 </form>
             </div>
 

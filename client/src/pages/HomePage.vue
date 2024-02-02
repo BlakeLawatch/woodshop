@@ -37,9 +37,6 @@
       <GalleryComponent />
       <AboutUsComponent class="border-style" />
     </section>
-    <section class="row">
-      <div class="text-center">Hello World</div>
-    </section>
   </div>
 </template>
 
