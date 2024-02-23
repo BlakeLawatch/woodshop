@@ -37,11 +37,6 @@
       <GalleryComponent />
       <AboutUsComponent class="border-style" />
     </section>
-    <section class="row">
-      <div class="col-12" data-aos="fade-left">
-        <p data-aos="fade-up">hello world</p>
-      </div>
-    </section>
   </div>
 </template>
 
