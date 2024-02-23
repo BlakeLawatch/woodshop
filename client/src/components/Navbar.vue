@@ -117,6 +117,7 @@ a:hover {
 .logo {
   height: 11vh;
   width: auto;
+  filter: drop-shadow(2px 2px 2px #200606);
 }
 
 .bordering {
@@ -125,12 +126,12 @@ a:hover {
 
 .options {
   font-size: 1.4rem;
-  text-shadow: 1px 1px 1.5px #361112;
+  text-shadow: 2px 2px 1.5px #361112;
   color: white;
 }
 
 .options:hover {
-  text-shadow: 2.5px 2.5px 3.5px #361112;
+  text-shadow: 4px 4px 3.5px #361112;
   transition: ease-in-out .4s;
 }
 </style>

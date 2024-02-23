@@ -38,8 +38,8 @@
       <AboutUsComponent class="border-style" />
     </section>
     <section class="row">
-      <div class="col-12" data-aos="fade-up">
-        <p>hello world</p>
+      <div class="col-12" data-aos="fade-left">
+        <p data-aos="fade-up">hello world</p>
       </div>
     </section>
   </div>
@@ -52,7 +52,7 @@ import CarouselComponent from '../components/CarouselComponent.vue';
 import GalleryComponent from '../components/GalleryComponent.vue';
 import Navbar from '../components/Navbar.vue';
 import SlideshowComponent from "../components/SlideshowComponent.vue";
-
+// import Aos from 'aos'
 
 
 
@@ -60,6 +60,7 @@ import SlideshowComponent from "../components/SlideshowComponent.vue";
 
 export default {
   setup() {
+    // Aos.init();
     return {
 
     }
