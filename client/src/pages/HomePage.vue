@@ -24,7 +24,7 @@
           </div>
           <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">2</h1>
-            <h2 class="fw-bold">Locally Sourced Lumber</h2>
+            <h2 class="fw-bold">Military Veteran</h2>
           </div>
           <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">3</h1>

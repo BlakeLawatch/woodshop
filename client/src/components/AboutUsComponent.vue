@@ -33,10 +33,7 @@
                             <textarea v-model="editable.message" type="text" class="form-control" placeholder="Message..."
                                 name="message" id="message" minlength="4" maxlength="400" rows="8" required></textarea>
                         </div>
-                    </div>
-                    <div class="text-end">
                         <button type="submit" class="btn rounded-pill btn-outline-main">Send Message</button>
-
                     </div>
                 </form>
             </div>
@@ -61,7 +58,6 @@ export default {
                 try {
                     editable.value = {}
                     Pop.success('Email Sent!')
-
                 } catch (error) {
                     Pop.error("email didn't work")
                 }
