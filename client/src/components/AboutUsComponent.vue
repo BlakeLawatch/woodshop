@@ -13,29 +13,29 @@
             </div>
             <div class="col-12 col-md-6 mb-3">
                 <h1 class="why-us mt-4 px-5 mb-4 text-center">Contact Us</h1>
-                <form method="post" action="">
+                <form method="post" action="https://formspree.io/f/xpzvrzdp">
                     <div class="d-flex ms-4">
                         <div class="mb-3 col-4">
-                            <input type="text" class="form-control" placeholder="Your Name" name="name" id="name"
-                                minlength="4" maxlength="20" required>
+                            <input v-model="editable.name" type="text" class="form-control" placeholder="Your Name"
+                                name="name" id="name" minlength="4" maxlength="20" required>
                         </div>
                         <div class="mb-3 ms-5 col-5">
-                            <input type="email" class="form-control" placeholder="Your Email" name="email" id="email"
-                                minlength="4" maxlength="40" required>
+                            <input v-model="editable.email" type="email" class="form-control" placeholder="Your Email"
+                                name="email" id="email" minlength="4" maxlength="40" required>
                         </div>
                     </div>
                     <div class="ms-4">
                         <div class="mb-3 col-10">
-                            <input type="subject" class="form-control" placeholder="Subject" name="subject" id="subject"
-                                minlength="4" maxlength="60" required>
+                            <input v-model="editable.subject" type="subject" class="form-control" placeholder="Subject"
+                                name="subject" id="subject" minlength="4" maxlength="60" required>
                         </div>
                         <div class="mb-3 col-10">
-                            <textarea type="text" class="form-control" placeholder="Message..." name="message" id="message"
-                                minlength="4" maxlength="400" rows="8" required></textarea>
+                            <textarea v-model="editable.message" type="text" class="form-control" placeholder="Message..."
+                                name="message" id="message" minlength="4" maxlength="400" rows="8" required></textarea>
                         </div>
                     </div>
                     <div class="text-end">
-                        <button class="btn rounded-pill btn-outline-main">Send Message</button>
+                        <button type="submit" class="btn rounded-pill btn-outline-main">Send Message</button>
 
                     </div>
                 </form>
@@ -49,11 +49,28 @@
 
 
 <script>
+import { ref } from 'vue';
+import Pop from '../utils/Pop';
+
 export default {
     setup() {
-        return {}
+        const editable = ref({})
+        return {
+            editable,
+            async sendEmail() {
+                try {
+                    editable.value = {}
+                    Pop.success('Email Sent!')
+
+                } catch (error) {
+                    Pop.error("email didn't work")
+                }
+            }
+
+        }
     }
-};
+}
+    ;
 </script>
 
 

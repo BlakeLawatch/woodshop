@@ -15,7 +15,7 @@
       </div>
     </section>
     <section class="row bg-card">
-      <h1 class="why-us mt-4 px-5" data-aos="fade-up">Why Choose Us?</h1>
+      <h1 class="why-us mt-4 px-5">Why Choose Us?</h1>
       <section class="text-center">
         <div class="row d-flex justify-content-around">
           <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
@@ -37,8 +37,14 @@
       <GalleryComponent />
       <AboutUsComponent class="border-style" />
     </section>
+    <section class="row">
+      <div class="col-12" data-aos="fade-up">
+        <p>hello world</p>
+      </div>
+    </section>
   </div>
 </template>
+
 
 <script>
 import AboutUsComponent from '../components/AboutUsComponent.vue';
@@ -54,12 +60,15 @@ import SlideshowComponent from "../components/SlideshowComponent.vue";
 
 export default {
   setup() {
-    return {}
+    return {
+
+    }
       ;
   },
-  components: { CarouselComponent, Navbar, SlideshowComponent, GalleryComponent, AboutUsComponent }
+  components: { CarouselComponent, Navbar, SlideshowComponent, GalleryComponent, AboutUsComponent },
 }
 </script>
+
 
 <style scoped lang="scss">
 .bg-image {
@@ -117,6 +126,7 @@ export default {
 
 .gradient-text {
   font-family: "El Messiri", sans-serif;
+  filter: drop-shadow(5px 5px 5px black);
   font-size: 3.5rem;
   background-image: linear-gradient(to right, #361112, #e4a960, #ddbf99);
   background-size: 100%;
