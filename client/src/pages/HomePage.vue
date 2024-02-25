@@ -37,6 +37,9 @@
       <GalleryComponent />
       <AboutUsComponent class="border-style" />
     </section>
+    <section class="row">
+      <FooterComponent />
+    </section>
   </div>
 </template>
 
@@ -44,6 +47,7 @@
 <script>
 import AboutUsComponent from '../components/AboutUsComponent.vue';
 import CarouselComponent from '../components/CarouselComponent.vue';
+import FooterComponent from '../components/FooterComponent.vue';
 import GalleryComponent from '../components/GalleryComponent.vue';
 import Navbar from '../components/Navbar.vue';
 import SlideshowComponent from "../components/SlideshowComponent.vue";
@@ -61,7 +65,7 @@ export default {
     }
       ;
   },
-  components: { CarouselComponent, Navbar, SlideshowComponent, GalleryComponent, AboutUsComponent },
+  components: { CarouselComponent, Navbar, SlideshowComponent, GalleryComponent, AboutUsComponent, FooterComponent },
 }
 </script>
 
@@ -72,9 +76,7 @@ export default {
   height: 90svh;
 }
 
-.bg-card {
-  background-color: #361112;
-}
+
 
 
 

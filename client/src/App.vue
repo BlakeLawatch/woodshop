@@ -45,4 +45,8 @@ footer {
   font-family: 'Holtwood One SC', sans-serif;
   color: whitesmoke;
 }
+
+.bg-card {
+  background-color: #361112;
+}
 </style>
