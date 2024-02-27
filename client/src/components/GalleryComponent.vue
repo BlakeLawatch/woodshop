@@ -60,13 +60,13 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
 
 .max-height {
-    max-height: 50vh;
-    max-width: 50vh;
+    // max-height: 50vh;
+    // max-width: 50vh;
     height: 50vh;
     width: 100%;
     margin-right: 25px;
     filter: drop-shadow(1rem 1rem 10px rgba(255, 255, 255, 0.23));
-    transition: transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .max-height:hover {
