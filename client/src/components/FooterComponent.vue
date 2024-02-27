@@ -1,7 +1,7 @@
 <template>
     <div class="bg-card py-4 text-center">
         <div class="mb-5">
-            <a class="socials" href="https://www.instagram.com/knottywoodshopllc/"><i
+            <a class="socials" title="Check us out on Instagram" href="https://www.instagram.com/knottywoodshopllc/"><i
                     class="mdi mdi-instagram text-light"></i></a>
 
         </div>

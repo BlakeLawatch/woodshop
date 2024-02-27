@@ -71,7 +71,7 @@ export default {
       window.scrollTo(0, 1000)
     }
     function goToAbout() {
-      window.scrollTo(0, 2000)
+      window.scrollTo(0, 3000)
     }
     // function goToContact() {
     //   window.scrollTo(0, 3000)
