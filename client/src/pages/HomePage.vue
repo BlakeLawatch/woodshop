@@ -15,7 +15,7 @@
       </div>
     </section>
     <section class="row bg-card">
-      <h1 class="why-us mt-4 px-5">Why Choose Us?</h1>
+      <h1 class="why-us mt-4 px-5" data-aos="fade-up">Why Choose Us?</h1>
       <section class="text-center">
         <div class="row d-flex justify-content-around">
           <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
@@ -51,7 +51,6 @@ import FooterComponent from '../components/FooterComponent.vue';
 import GalleryComponent from '../components/GalleryComponent.vue';
 import Navbar from '../components/Navbar.vue';
 import SlideshowComponent from "../components/SlideshowComponent.vue";
-// import Aos from 'aos'
 
 
 

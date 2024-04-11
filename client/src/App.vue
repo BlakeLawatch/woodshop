@@ -15,18 +15,22 @@ import Navbar from './components/Navbar.vue'
 
 
 export default {
+
   setup() {
     return {
       appState: computed(() => AppState)
     }
+
   },
   components: { Navbar }
 }
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.js");
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
 
 
 

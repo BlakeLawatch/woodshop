@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid gallery">
-        <div class="row">
+        <div id="Gallery" class="row">
             <h1 class="why-us mt-4 px-5">Gallery</h1>
             <div class="col-md-12 d-flex flex-wrap justify-content-center py-5">
                 <div class="col-md-3 p-3" v-for="(image, index) in images" :key="index">
@@ -18,7 +18,7 @@
 
     <audio ref="audioPlayer" :src="audioSrc"></audio>
 </template>
-  
+
 <script>
 
 export default {
@@ -55,7 +55,7 @@ export default {
     },
 };
 </script>
-  
+
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Martian+Mono:wght@700&family=Permanent+Marker&family=Skranji&display=swap');
 

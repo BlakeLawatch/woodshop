@@ -1,5 +1,5 @@
 <template>
-    <div class="bg">
+    <div id="About" class="bg">
         <section class="row">
             <div class=" col-12 col-md-6 mb-3">
                 <h1 class="why-us mt-4 px-5 mb-4 text-center">About Us</h1>
@@ -30,8 +30,9 @@
                                 name="subject" id="subject" minlength="4" maxlength="60" required>
                         </div>
                         <div class="mb-3 col-10">
-                            <textarea v-model="editable.message" type="text" class="form-control" placeholder="Message..."
-                                name="message" id="message" minlength="4" maxlength="400" rows="8" required></textarea>
+                            <textarea v-model="editable.message" type="text" class="form-control"
+                                placeholder="Message..." name="message" id="message" minlength="4" maxlength="400"
+                                rows="8" required></textarea>
                         </div>
                         <button type="submit" class="btn rounded-pill btn-outline-main">Send Message</button>
                     </div>

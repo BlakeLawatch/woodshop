@@ -32,7 +32,7 @@
     </div>
   </nav>
 </template>
-          <!-- <li class="bordering">
+<!-- <li class="bordering">
             <router-link :to="{ name: 'Gallery' }" class="btn options fw-bold text-uppercase">
               Gallery
             </router-link>
@@ -48,8 +48,8 @@
               Contact
             </router-link>
           </li> -->
-      <!-- LOGIN COMPONENT HERE -->
-      <!-- <div>
+<!-- LOGIN COMPONENT HERE -->
+<!-- <div>
         <button class="btn text-light" @click="toggleTheme"><i class="mdi"
             :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i></button>
       </div>
@@ -68,10 +68,12 @@ export default {
       document.documentElement.setAttribute('data-bs-theme', theme.value)
     })
     function goToGallery() {
-      window.scrollTo(0, 1000)
+      let elem = document.getElementById("Gallery")
+      elem?.scrollIntoView({ behavior: 'smooth' })
     }
     function goToAbout() {
-      window.scrollTo(0, 3000)
+      let elem = document.getElementById("About")
+      elem?.scrollIntoView({ behavior: 'smooth' })
     }
     // function goToContact() {
     //   window.scrollTo(0, 3000)
