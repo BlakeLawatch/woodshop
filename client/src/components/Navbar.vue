@@ -75,14 +75,10 @@ export default {
       let elem = document.getElementById("About")
       elem?.scrollIntoView({ behavior: 'smooth' })
     }
-    // function goToContact() {
-    //   window.scrollTo(0, 3000)
-    // }
 
     return {
       goToGallery,
       goToAbout,
-      // goToContact,
       theme,
       toggleTheme() {
         theme.value = theme.value == 'light' ? 'dark' : 'light'
