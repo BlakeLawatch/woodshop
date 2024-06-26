@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid gallery">
         <div id="Gallery" class="row">
-            <h1 class="why-us mt-4 px-5">Gallery</h1>
+            <h1 data-aos="flip-left" class="why-us mt-4 px-5">Gallery</h1>
             <div class="col-md-12 d-flex flex-wrap justify-content-center py-5">
                 <div class="col-md-3 p-3" v-for="(image, index) in images" :key="index">
                     <img class="img-fluid max-height selectable" :src="image.src" :alt="image.alt"

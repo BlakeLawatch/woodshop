@@ -11,12 +11,17 @@
 import { computed } from 'vue'
 import { AppState } from './AppState'
 import Navbar from './components/Navbar.vue'
+import AOS from 'aos'
 
 
 
 export default {
 
   setup() {
+    AOS.init({
+      duration: 1000,
+      once: true
+    })
     return {
       appState: computed(() => AppState)
     }

@@ -6,7 +6,8 @@
 
         </div>
         <div>
-            <p class="text-light mb-0"><i class="mdi mdi-copyright"></i> COPYRIGHT <b> KNOTTY WOOD SHOP LLC</b>
+            <p class="text-light mb-0"><i class="mdi mdi-copyright"></i> COPYRIGHT <b> KNOTTY WOOD
+                    SHOP LLC</b>
                 All
                 rights
                 reserved

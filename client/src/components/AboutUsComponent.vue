@@ -2,7 +2,7 @@
     <div id="About" class="bg">
         <section class="row">
             <div class=" col-12 col-md-6 mb-3">
-                <h1 class="why-us mt-4 px-5 mb-4 text-center">About Us</h1>
+                <h1 data-aos="fade-left" class="why-us mt-4 px-5 mb-4 text-center">About Us</h1>
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rem ex dolorum
                     eveniet quidem!
                     Consequatur molestiae iure illo cumque quasi.</p>
@@ -12,7 +12,7 @@
                     nobis, reiciendis quod facere nostrum in.</p>
             </div>
             <div class="col-12 col-md-6 mb-3">
-                <h1 class="why-us mt-4 px-5 mb-4 text-center">Contact Us</h1>
+                <h1 data-aos="fade-right" class="why-us mt-4 px-5 mb-4 text-center">Contact Us</h1>
                 <form method="post" action="https://formspree.io/f/xpzvrzdp">
                     <div class="d-flex ms-4">
                         <div class="mb-3 col-4">

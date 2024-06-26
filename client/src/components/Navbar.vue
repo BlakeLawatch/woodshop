@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-sm p-5">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img class="logo" alt="logo" src="src/assets/img/Knotty-logo.png" />
+        <img data-aos="zoom-in" class="logo" alt="logo" src="src/assets/img/Knotty-logo.png" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -11,7 +11,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ms-auto">
-        <div class="d-flex dropdown">
+        <div data-aos="zoom-in" class="d-flex dropdown">
           <div class="bordering">
             <li @click="goToGallery()" class="btn options fw-bold text-uppercase">
               Gallery
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .logo {
-  height: 11vh;
+  height: 15vh;
   width: auto;
   filter: drop-shadow(2px 2px 2px #200606);
 }

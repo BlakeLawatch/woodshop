@@ -15,20 +15,20 @@
       </div>
     </section>
     <section class="row bg-card">
-      <h1 class="why-us mt-4 px-5" data-aos="fade-up">Why Choose Us?</h1>
+      <h1 class="why-us mt-4 px-5" data-aos="fade-right">Why Choose Us?</h1>
       <section class="text-center">
         <div class="row d-flex justify-content-around">
           <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">1</h1>
-            <h2 class="fw-bold">Locally Owned</h2>
+            <h2 data-aos="zoom-in" class="fw-bold">Locally Owned</h2>
           </div>
           <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">2</h1>
-            <h2 class="fw-bold">Military Veteran</h2>
+            <h2 data-aos="zoom-in" class="fw-bold">Military Veteran</h2>
           </div>
           <div class="col-11 col-md-3 text-center cards d-flex flex-column justify-content-center">
             <h1 class="mb-5">3</h1>
-            <h2 class="fw-bold">Born and Raised in Boise ID</h2>
+            <h2 data-aos="zoom-in" class="fw-bold">Born and Raised in Boise ID</h2>
           </div>
         </div>
       </section>
